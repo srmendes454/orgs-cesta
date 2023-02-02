@@ -11,7 +11,7 @@ export default function Detalhes({nome, logoFazenda, nomeFazenda, descricao, pre
         <Texto style={estilos.descricao}>{descricao}</Texto>
         <Texto style={estilos.preco}>{preco}</Texto>
 
-        <TouchableOpacity style={estilos.botao} onPress={() => Alert.alert('Cesta adiciona ao carrinho')}>
+        <TouchableOpacity style={estilos.botao} onPress={() => Alert.alert('Cesta adicionada ao carrinho')}>
             <Texto style={estilos.textoBotao}>{botao}</Texto>
         </TouchableOpacity>
     </>
